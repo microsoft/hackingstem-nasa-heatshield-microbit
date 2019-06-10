@@ -1,4 +1,4 @@
-# ------------__ Hacking STEM – thermister.py – micro:bit __-----------
+# ------------__ Hacking STEM – heat_shield.py – micro:bit __-----------
 #  For use with the TODO: Lesson title
 #  lesson plan available from Microsoft Education Workshop at
 #  http://aka.ms/hackingSTEM
@@ -30,8 +30,8 @@ DATA_RATE = 1000  # Frequency of code looping
 EOL = '\n'  # End of Line Character
 
 # Pins where the Thermistors are connected
-front_therm_pin = pin0
-back_therm_pin = pin1
+material_therm_pin = pin0
+hair_dryer_therm_pin = pin1
 
 
 def get_resistance(pin):
@@ -109,11 +109,11 @@ while (True):
     # Get the data from serial and store it in a new variable
     serial_in_data = getData()
     # Read the thermistors and convert the resistance value to temprature
-    front_temprature = stienhart(get_resistance(front_therm_pin))
-    back_temprature = stienhart(get_resistance(back_therm_pin))
+    material_temprature = stienhart(get_resistance(material_therm_pin))
+    hair_dryer_temprature = stienhart(get_resistance(hair_dryer_therm_pin))
     # Check if pause command was sent
     if (serial_in_data[0] != "#pause"):
         # uart is the micro:bit command for serial
-        uart.write(',{},{},'.format(front_temprature, back_temprature)+EOL)
+        uart.write(',{},{},'.format(material_temprature, hair_dryer_temprature)+EOL)
 
     sleep(DATA_RATE)
