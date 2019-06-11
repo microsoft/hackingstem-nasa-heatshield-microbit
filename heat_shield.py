@@ -64,6 +64,6 @@ while (True):
     material_temprature = stienhart(get_resistance(MATERIAL_THERM_PIN))
     hair_dryer_temprature = stienhart(get_resistance(HAIR_DRYER_THERM_PIN))
     # uart is the micro:bit command for serial
-    uart.write(',{},{},'.format(material_temprature, hair_dryer_temprature)+EOL)
+    uart.write('{},{},'.format(material_temprature, hair_dryer_temprature)+EOL)
 
     sleep(DATA_RATE)
