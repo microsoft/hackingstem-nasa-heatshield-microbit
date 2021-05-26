@@ -1,5 +1,5 @@
 # Introduction
-Micropython code for Microsoft Hacking STEM 'Heat Shield' lesson plan adapted for micro:bit
+Micropython code for Microsoft Hacking STEM Using Materials Science Engineering to Determine Heat Resistance lesson plan adapted for micro:bit
 
 # Getting Started
 1. Download lesson assets at [http://aka.ms/hackingSTEM](http://aka.ms/hackingSTEM)
