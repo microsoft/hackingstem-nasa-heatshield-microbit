@@ -1,6 +1,7 @@
 # ------------__ Hacking STEM – heat_shield.py – micro:bit __-----------
 #  For use with the Hacking STEM Heat Shield lesson plan available from 
-#  Microsoft Education Workshop at http://aka.ms/hackingSTEM
+#  Microsoft Education Workshop at https://aka.ms/heatshield
+#  http://aka.ms/hackingSTEM
 #
 #  Overview: This project reads the resistance of two thermistors and converts
 #  that value to temperature using the stienhart-hart formula. Each of the
