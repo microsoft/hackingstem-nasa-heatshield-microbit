@@ -1,6 +1,7 @@
 # ------------__ Hacking STEM – heat_shield.py – micro:bit __-----------
 # For use with the TODO Lesson plan
 # available from Microsoft Education Workshop at
+# https://aka.ms/heatshield
 # http://aka.ms/hackingSTEM
 #
 #  Overview:
