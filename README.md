@@ -2,7 +2,7 @@
 Micropython code for Microsoft Hacking STEM Using Materials Science Engineering to Determine Heat Resistance lesson plan adapted for micro:bit
 
 # Getting Started
-1. Download lesson assets at [http://aka.ms/hackingSTEM](http://aka.ms/hackingSTEM)
+1. Download lesson assets at https://aka.ms/heatshield
 2. Assemble your heat shield
 3. Use [Mu](https://codewith.mu/) to flash source python to your [micro:bit](https://microbit.org/) microcontroller
 4. Verify data interactions in Excel
@@ -17,4 +17,4 @@ This project is licensed under the MIT open source license, see License. The MIT
 
 Fork away! Let us know what you build!
 
-**This is an archived repository.**
+http://aka.ms/hackingSTEM
